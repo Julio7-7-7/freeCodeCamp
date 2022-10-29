@@ -68,10 +68,22 @@
             padding: 5px 5px 5px 5px;
         }
 
+        .blue-text{
+            color: blue;
+        }
+        .brown-text{
+            color: brown;
+        }
+        /*La segunda clase es la que tiene prioridad al haber sido escrita al final*/
+        /*Los ID tienen mayor prioridad que las clases*/
+        #orange-text{
+            color: orange;
+        }
     </style>
 
     <main>
-        <h2 class="red-text";>Gatitos</h2>
+        <!-- Para h2* Un style in line tiene mayor prioridad que las clases y ID's -->
+        <h2 class="blue-text brown-text";>Gatitos</h2>
         <p class="red-text";>Para ver mas <a href="shorturl.at/KMPU0">Gatitos</a></p>
         <img class="smaller-image tick-green-border"; src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?
         auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Imagen de gatos">
