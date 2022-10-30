@@ -1,0 +1,58 @@
+                                        /*1 */
+/* Los elementos flotantes se eliminan del flujo normal de un documento y se empujan a left o right de su elemento 
+padre contenedor. Se usa comúnmente con la propiedad width para especificar cuanto espacio horizontal requiere el 
+elemento flotante. el code de left&right hace dos cuadros uno al lado del otro */
+#left {
+    width: 50%;
+    float: left;
+}
+      
+#right {
+    width: 40%;
+    float: left;
+}
+
+aside, section {
+    padding: 2px;
+    background-color: #ccc;
+}
+                                        /*1 */
+
+                                        /* 2 */
+/*Arreglamos la sobreposición de los div con z-index
+La propiedad z-index puede especificar el orden de cómo los elementos están apilados unos sobre otros. 
+Debe ser un entero (i.e. un númeroentero y no un decimal), y los elementos que mayor valor tengan en z-index serán 
+movidos más arriba en la pila de elementos que aquellos con valores menores.*/
+/* div {
+    width: 60%;
+    height: 200px;
+    margin-top: 20px;
+  } */
+
+/* .first {
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+} */
+
+/* .second {
+    background-color: blue;
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    z-index: 1;
+} */
+                                        /* 2 */
+
+                                        /* 3 */
+/*Posicionamos el cuadro div en el centro usando margin auto*/
+.third{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    z-index: 3;
+}
+                                        /* 3 */
+                                        
+

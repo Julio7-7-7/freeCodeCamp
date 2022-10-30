@@ -50,8 +50,8 @@
     se moverá cuando el usuario se desplace. */
     h6{
         position: fixed;
-        top: 0px;
-        left: 0px;
+        top: 680px;
+        left: 100px;
         /*Después de agregar el código top&left 0-0, para 
         ver como la navegación permanece en su lugar. */
 

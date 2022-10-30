@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+}
+
+/*Saturation es la cantidad de gris en un color. Un color totalmente saturado no tiene gris y un color mínimamente 
+saturado es casi completamente gris. Esto se da como un porcentaje con 100% de saturación.
+Lightness es la cantidad de blanco en un color. Un porcentaje se da desde 0% (negro) hasta 100% (blanco), donde 50% 
+es el color normal*/
+header {
+    background-color: hsl(212, 77%, 31%);
+    color: white;
+    padding: 0.25em;
+}
+
+h2 {
+    color: hsla(202, 86%, 45%, 0.24);
+}
+
+button {
+    background-color: hsla(281, 67%, 88%, 0.781);
+}
+
+/*Para degradacion de colores se usa background:linear-gradient(gradient_direction, color 1, color 2, color 3, ...);
+El primer argumento especifica la dirección desde la que comienza la transición de color, se puede establecer como un 
+grado, donde 90deg hace un gradiente horizontal (de izquierda a derecha) y 45deg hace un gradiente diagonal (de abajo a
+izquierda hacia arriba a la derecha).
+background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
+
+repeating-linear-gradient() es muy similar a linear-gradient() con la principal diferencia de que repite el patrón de degradado especificado
+
+*/
+footer {
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+    /* background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255)); */
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+}
+    
