@@ -1,0 +1,31 @@
+body {
+    background-image: url(./img/fondo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+.stock {
+    width: 80%;
+    background-color: #d09e9e58;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 35px;
+    min-width: 500px;
+    display: flex;
+}
+
+.dProducts {
+    background-color: #2051678f;
+    float: left;
+}
+
+.cProducts {
+    background-color: #74541c72;
+    float: left;
+}

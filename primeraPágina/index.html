@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatPhotoApp</title>
+</head>
+
+<body>
+    <main>
+        <h1>CatPhotoApp</h1>
+        <section>
+            <!--href# enlace muerto y tiene como vínculo a la imágen--> 
+            <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Imagen de gatito"></a>
+            <!--targetblank abrir img en otra pestaña-->
+            <p>Ver más <a target="_blank" href="https://www.freecatphotoapp.com">Fotos de gatos</a> </p> 
+            <a href="#footer">Jump to Bottom</a>
+        </section>
+            <p>Este es un sitio para ver fotos de gatos</p>
+            <!-- <a href="#"><img src="https://www.google.com/search?q=gatos&client=opera-gx&hs=lbw&sxsrf=APwXEddDHxbFZuofHdGl9TZLyirXBlqPqQ
+            :1684631980185&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjJ9oWWn4X_AhU0IrkGHQDOD1YQ_AUoAXoECAEQAw&biw=1325&bih=665&dpr=1">Link para más gatos</a> -->
+        <section>
+            <h2>Cosas que aman los gatos</h2>
+            <ul>
+                <li>Lasaña</li>
+                <li>Lasers</li>
+                <li>Pescado</li>
+                <!-- Figure sirve para envolver imagenes que necesitan descripcion -->
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="Un plato de lasagna">
+                    <!-- em pone cursiva -->
+                    <figcaption>A los gatos les <em>gusta la lasaña</em></figcaption>
+                </figure>
+            </ul>
+        </section>
+        <section>
+            <h2>Cosas que los gatos odian</h2>
+            <ol>
+                <li>Baños</li>
+                <li>Tormentas</li>
+                <li>Otros gatos lol</li>
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="5 gatos viendo el pasto">
+                    <!-- strong sirve para resaltar -->
+                    <figcaption>Ningun gato ve la <strong>cámara</strong>  lol</figcaption>
+                </figure>
+            </ol>
+        </section>
+        <section>
+            <!-- "action" le dice al form a dónde enviar los datos -->
+            <form action="https://freecatphotoapp.com/submit-cat-photo"></form>
+            <!-- input recolecta datos de un formulario web. Tipos de input en el atributo type:(password), un botón reinicio (reset) 
+            o un control para que los usuarios seleccionen un archivo desde su computadora-->
+            <!-- name" para identificar y referirse al valor del campo del formulario cuando se envía al servidor como parte de la información
+            del formulario junto con el valor ingresado por el usuario. -->
+            <!-- "required" no se puede enviar si no está lleno -->
+            <input type="text" name="primerInput" id="" placeholder="catPhotoUrl" required>
+            <button type="submit">Submit</button>
+            <!-- "fieldset" agrupa elementos relacionados en un formulario como inputs y label y crea un conjunto visualmente relacionado de campos -->
+            <fieldset>
+                <!-- label apunta al input con id nombre -->
+                <!-- <label for="outdoor">Outdoor:</label> -->
+                <!-- radio hace una opcion burbuja -->  
+                <!-- "inputRadio" con el mismo nombre crean un grupo de botones de opción exclusivos. Significa que solo se puede seleccionar un elemento
+                de ese grupo a la vez-->
+                <!-- "leyend" da una descripcion -->
+                <legend>Tus gatos son de interior o exterior</legend>
+                <label><input type="radio" name="indoor-outdoor" id="indoor" value="indoor">Indoor</label>
+                <Label><input type="radio" name="indoor-outdoor" id="indoor" value="outdoor">Outdoor</Label>
+            </fieldset>
+            <fieldset>
+                <legend>Cual es la personalidad de tu gato</legend>
+                <input type="checkbox" name="personalidad" id="peresozo" value="peresozo"><label for="peresozo">Peresozo</label>
+                <input type="checkbox" name="personalidad" id="cariñoso" value="cariñoso"><label for="cariñoso">Cariñoso</label>
+                <input type="checkbox" name="personalidad" id="energico" value="energico"><label for="energico">Energico</label>
+            </fieldset>
+        </section>
+
+
+    </main>
+
+    <footer id="footer">
+        <p>No Copyright more in <a href="Nhttps://www.freecodecamp.org">FreeCodeCamp.org</a></p>
+    </footer>
+</body>
+
+</html>

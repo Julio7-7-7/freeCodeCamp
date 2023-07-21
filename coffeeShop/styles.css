@@ -1,0 +1,60 @@
+/* h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+} 
+Ya que los 3 tienen el mismo estilo puedes poner los 3 juntos */
+
+h1, h2, p{
+    text-align: center;
+}
+
+body{
+    background-image: url(./img/beans.jpg);
+}
+
+/*Centrar horizontalmente el div: auto a margin-left y margin-right.
+Piensa en el margen como un espacio invisible alrededor de un elemento
+Padding le da un grosor a las orillas, como los margenes en una hoja
+*/
+
+.menu{
+    width: 80%;
+    background-color: burlywood;
+    margin-right: auto;
+    margin-left: auto;
+    /* padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px; */
+    padding: 30px;
+    max-width: 500px;
+}
+
+
+/* Flavor y price tienen un 75/25% de ancho porque son InlineBlock o sea solo ocupan el espacio dependiendo del contenido */
+.flavor, .dessert{
+    text-align: left;
+    width: 75%;
+}
+
+.price{
+    text-align: right;
+    width: 25%;
+}
+
+.item p{
+    display: inline-block;
+}
+
+.section{
+    background-color: rgba(131, 52, 52, 0.4);
+    padding: 30px;
+}
+

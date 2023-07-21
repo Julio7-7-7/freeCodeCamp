@@ -28,7 +28,7 @@ background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
 
 repeating-linear-gradient() es muy similar a linear-gradient() con la principal diferencia de que repite el patrón de degradado especificado
 
-*/
+|*/
 footer {
     background-color: black;
     color: white;
@@ -37,3 +37,76 @@ footer {
     background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
 }
     
+/* repeating-linear-gradient() es muy similar a linear-gradient() con la principal diferencia de que repite el patrón
+de degradado especificado. repeating-linear-gradient()
+El valor del ángulo es la dirección del gradiente. Las paradas de color son como valores de ancho que marcan donde tiene 
+lugar una transición, y se dan con un porcentaje o un número de píxeles */   
+
+/* div{
+    border-radius: 20px;
+    width: 70%;
+    height: 400px;
+    margin:  50 auto;
+    background: repeating-linear-gradient(
+        45deg,
+        yellow 0px,
+        black 40px,
+        yellow 40px,
+        black 80px
+    );
+} */
+
+/* Para cambiar la escala de un elemento, CSS tiene la propiedad transform, junto con su función scale().
+En el ejemplo de código siguiente se duplica el tamaño de todos los elementos de párrafo de la página: */
+
+.ball {
+    width: 40px;
+    height: 40px;
+    margin: 50 auto;
+    position: fixed;
+    background: linear-gradient(
+      35deg,
+      #ccffff,
+      #ffcccc
+    );
+    border-radius: 50%;
+  }
+  #ball1 {
+    left: 20%;
+  }
+  #ball2 {
+    left: 65%;
+    transform: scale(2);
+  }
+
+  /* La propiedad transform tiene una variedad de funciones que te permiten escalar, mover, rotar, sesgar, etc., 
+  sus elementos. Cuando se usa con pseudo-classes como :hover que especifican un cierto estado de un elemento, 
+  la propiedad transform puede agregar fácilmente interactividad a sus elementos. */
+  
+  /* div:hover {
+    transform: scale(0.5);
+    width: 70%;
+    height: 100px;
+    margin:  50px auto;
+    background: linear-gradient(
+      53deg,
+      #ccfffc,
+      #ffcccf
+    );
+  } */
+
+/* La siguiente función de la propiedad transform es skewX(), que inclinar el elemento seleccionado a lo largo de su eje X (horizontal).
+El siguiente código inclina el elemento de párrafo en -32 grados a lo largo del eje X. */
+
+div {
+  width: 70%;
+  height: 100px;
+  margin:  50px auto;
+}
+#top {
+  background-color: red;
+}
+#bottom {
+  background-color: blue;
+  transform: skewx(24deg)
+}
