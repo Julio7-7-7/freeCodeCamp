@@ -1,0 +1,60 @@
+#titulo, #bienvenida{
+   text-align: center;
+}
+
+.formulario{
+  background-color: chocolate;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contenido{
+  text-align: center;
+  background-color: gray;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bhtruck{
+  height: 400px;
+  width: 250px;
+  border-radius: 35px;
+}
+
+.container{
+  display: flex;
+
+}
+.love{
+  text-align: center;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: cornflowerblue;
+  border-radius: 45px;
+}
+
+
+.hate{
+  text-align: center;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ba1c1ccf;
+  border-radius: 45px;
+}
+
+.checktemp{
+  background-color: #d8ef27;
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer{
+  background-color: rgb(113, 104, 104);
+  text-align: center;
+}

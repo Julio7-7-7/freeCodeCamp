@@ -5,14 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TheBojackHorsemanBlog</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
   <main>
-    <h1>Esta es una pagina web lol</h1>
-    <h2>Puedes escribir lo que quieras y aun asi quedara bien</h2>
+    <h1 id="titulo">Esta es una pagina web lol</h1>
+    <h2 id="bienvenida">Puedes escribir lo que quieras y aun asi quedara bien</h2>
 
-    <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <form action="https://freecatphotoapp.com/submit-cat-photo" class="formulario">
       <section>
         <h3>Dime cual es tu temporada favorita?</h3>
         <fieldset>
@@ -35,7 +36,8 @@
         </fieldset>
       </section>
     </form>
-    <section>
+  
+    <section class="contenido">
       <p>Terminos y condiciones no hay por el momento equisde</p>
       <p>Primera restricciòn la cual nos dice que tenemos que poner cualquier link de img
         entre comillas waos</p>
@@ -44,12 +46,13 @@
       <figure>
         <a href="https://www.pinterest.com/search/pins/?q=bojack%20horseman&rs=rs&eq=&etslf=1972" target="_blank">
           <img src="https://i.pinimg.com/564x/c4/24/53/c424538f5a0d9f3d63fe0c3495ef1ff9.jpg"
-            alt="<Stupid peace of shit">
+            alt="<Stupid peace of shit" id="bhtruck">
         </a>
       </figure>
     </section>
 
-    <section>
+    <div class="container">
+    <section class="love">
       <h2>Cosas que <em>Bojack</em> ama</h2>
       <ul>
         <li>Alcohol</li>
@@ -58,7 +61,7 @@
       </ul>
     </section>
 
-    <section>
+    <section class="hate">
       <h2>Cosas que <em>Bojack</em> odia</h2>
       <ul>
         <li>Licuadoras</li>
@@ -66,8 +69,9 @@
         <li>La foto del estornudo lol</li>
       </ul>
     </section>
+  </div>
 
-    <section>
+    <section class="checktemp">
       <fieldset>
         <legend>Temporadas vistas</legend>
         <input checked type="checkbox" name="temporada" id="tempo1" value="1">
