@@ -5,12 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DonnieDarkoBlog</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
 
   <main>
-    <section>
+    <section class="content">
       <h1>This is a page inspired in the film <em><a href="https://acortar.link/zwR4W2" target="_blank">Donnie
             Darko</a></em></h1>
       <h2>Some things that I thought about my first time watching the movie <br>
@@ -28,46 +29,53 @@
       </p>
     </section>
 
-    <img src="https://i.pinimg.com/736x/d7/7a/c7/d77ac70986a95152f6217868caee27ea.jpg" alt="Frank y Donnie">
+    <div class="photo">
+      <img id="cinema" src="https://i.pinimg.com/736x/d7/7a/c7/d77ac70986a95152f6217868caee27ea.jpg"
+        alt="Frank y Donnie">
+    </div>
 
-    <section>
-      <h2>Things that I love of the movie</h2>
-      <ul>
-        <li>The dark adolescent atmosphere</li>
-        <li>The girl lol</li>
-        <li>The music. Specially Head over Hills</li>
-      </ul>
+    <section class="love">
+      <div class="love2">
+        <h2>Things that I love of the movie</h2>
+        <ul>
+          <li>The dark adolescent atmosphere</li>
+          <li>The girl lol</li>
+          <li>The music. Specially Head over Hills</li>
+        </ul>
+      </div>
     </section>
 
-    <section>
+    <section class="formu">
       <form action="https://freecatphotoapp.com/submit-cat-photo">
-        <fieldset>
+        <fieldset class="link">
           <legend>Links</legend>
           <h3>Put the link of your favorite pirate page to watch the movie :D</h3>
           <input type="text" name="link" placeholder="URL Pirate lol" required>
           <button type="submit">Submit</button>
         </fieldset>
 
-        <fieldset>
-          <legend>Choose your Actor</legend>
-          <h3>What's your favorite actor?</h3>
-          <label> <input type="radio" name="actor" id="jake" value="jake">Jake Gyllenhaal</label>
-          <label><input type="radio" name="actor" id="eli" value="eli">Maggie Gyllenhaal</label>
-          <label><input type="radio" name="actor" id="jena" value="jena">Jena Malone</label>
-        </fieldset>
+        <div class="judge">
+          <fieldset class="actor">
+            <legend>Choose your Actor</legend>
+            <h3>What's your favorite actor?</h3>
+            <label> <input type="radio" name="actor" id="jake" value="jake">Jake Gyllenhaal</label>
+            <label><input type="radio" name="actor" id="eli" value="eli">Maggie Gyllenhaal</label>
+            <label><input type="radio" name="actor" id="jena" value="jena">Jena Malone</label>
+          </fieldset>
 
-        <fieldset>
-          <legend>Qualify</legend>
-          <input type="checkbox" name="score" id="bad" value="c">
-          <label for="bad">1-5</label>
-          <input type="checkbox" name="score" id="passable" value="b">
-          <label for="passable">6-8</label>
-          <input type="checkbox" name="score" id="good" value="a">
-          <label for="good">9-10</label>
-        </fieldset>
-
+          <fieldset class="qualify">
+            <legend>Qualify</legend>
+            <input type="checkbox" name="score" id="bad" value="c">
+            <label for="bad">1-5</label>
+            <input type="checkbox" name="score" id="passable" value="b">
+            <label for="passable">6-8</label>
+            <input type="checkbox" name="score" id="good" value="a">
+            <label for="good">9-10</label>
+          </fieldset>
+        </div>
       </form>
     </section>
+
   </main>
 
   <footer>
