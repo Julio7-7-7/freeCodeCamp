@@ -4,16 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DailyJR
-  </title>
+  <title>DailyJR</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-  <h1>Diario de un Programador</h1>
-  <h3>En estos ùltimos dìas he estado consumiendo mucho contenido de frontend y me volviò a interesar</h3>
-  <h3>la idea de seguir aprendiendo el desarrollo de paginas web asì que a darle</h3>
+  <nav>
+    <h1>Diario de un Programador</h1>
+  </nav>
+
+  <div class="intro">
+    <h3>En estos últimos dìas he estado consumiendo mucho contenido de frontend y me volvió a interesar la idea de
+      seguir aprendiendo el desarrollo de paginas web así que a darle</h3>
+  </div>
 
   <main>
+
     <section>
       <ul>
         <h3><em>Octubre 17</em></h3>
@@ -72,15 +78,16 @@
           Entre sus atributos estan su name y el type que es submit y asì</li>
         <li>Lo siguiente que harè serà una pequeña demostraciòn mm kjaskda</li>
       </ul>
-      <section>
-        <form action="https://freecatphotoapp.com/submit-cat-photo">
-          <fieldset>
+
+      <section id="problematico">
+        <form action="https://freecatphotoapp.com/submit-cat-photo" class="problematico">
+          <fieldset class="info">
             <h3>Aquì va el input text con su respectivo submit <br>
               el cual por cierto no funciona sin el action con su link a donde se enviarà la informaciòn</h3>
             <input type="text" name="info" id="info" placeholder="Pon info acà waos" required>
             <button type="submit">Subir</button>
           </fieldset>
-          <fieldset>
+          <fieldset class="info">
             <h3>Y aquì las opciones multiples</h3>
             <label><input type="radio" name="opciones" id="1" value="1">Opcion 1 waos no sè què hacerte escoger</label>
             <label><input type="radio" name="opciones" id="2" value="2">Opcion 2 eldiavlo olvidè que los id tienen que
@@ -88,6 +95,7 @@
           </fieldset>
         </form>
       </section>
+
       <ul>
         <li>En fin esos fueron los cambios de hoy un buen domingo que no olvidarè seguro xd Julio del futuro recuerda
           que hoy tu papà se rifò <br>
@@ -101,6 +109,7 @@
           cinèfilo</li>
       </ul>
     </section>
+
     <section>
       <ul>
         <h3><em>Octubre 19</em></h3>
@@ -177,17 +186,63 @@
       <ul>
         <h3><em>Octubre 21</em></h3>
         <li>Fua hoy, aunque empecé tarde, un día productivo. <br>
-            Primero no podía codear porque se cambió el idioma del teclado de la laptop y no sabía cómo configurarlo. Al final probé con nuevos teclados <br>
+          Primero no podía codear porque se cambió el idioma del teclado de la laptop y no sabía cómo configurarlo. Al
+          final probé con nuevos teclados <br>
           y nuevos idiomas hasta que lo conseguí y de yapa se solucionó lo del acento.</li>
-        <li>En fin hoy aprendí un poco más sobre css y ya pude customizar la página de bojack. Me doy dando cuenta que aprender de forma autodidacta, leyendo documentación <br>
-        e investigando cada cosa que me genera duda deja en mi más marcada la huella del conocimiento mm pero si</li>
+        <li>En fin hoy aprendí un poco más sobre css y ya pude customizar la página de bojack. Me doy dando cuenta que
+          aprender de forma autodidacta, leyendo documentación <br>
+          e investigando cada cosa que me genera duda deja en mi más marcada la huella del conocimiento mm pero si</li>
         <li>Lo que más me gustó aprender y quitarme la duda es acerca de los div. <br>
-        Su uso es para cuando tengo elementos html sin agrupar como por un section o algo entonces bum un div para agruparlos y poder estilizarlos en css</li>
-        <li>Otra cosa que aprendí es acerca del display flex. Sirve para que los elementos en bloque como las imagenes sean en linea entonces pueden estar una al lado <br>
-        de la otra</li>
-        <li>Y así jaskjd me puse muy felíz mientras trabajaba y entendía mejor las cosas, aunque mi forma de css todavia deja mucho que desear en cuanto a selección de colores Lol</li>
-        <li>Y bueno hasta ahí por hoy. Ya son las 12 aunque no tengo mucho sueño seguro es algo molesto para mis padres escuchar mi typeo y de paso me voy quedando sin bateria</li>
-        <li>Pd. Mañana empiezan mis clases y tomé 7 materias pero espero poder organizarme bien y poder seguir con mi instrucción en frontend</li>
+          Su uso es para cuando tengo elementos html sin agrupar como por un section o algo entonces bum un div para
+          agruparlos y poder estilizarlos en css</li>
+        <li>Otra cosa que aprendí es acerca del display flex. Sirve para que los elementos en bloque como las imagenes
+          sean en linea entonces pueden estar una al lado <br>
+          de la otra</li>
+        <li>Y así jaskjd me puse muy felíz mientras trabajaba y entendía mejor las cosas, aunque mi forma de css todavia
+          deja mucho que desear en cuanto a selección de colores Lol</li>
+        <li>Y bueno hasta ahí por hoy. Ya son las 12 aunque no tengo mucho sueño seguro es algo molesto para mis padres
+          escuchar mi typeo y de paso me voy quedando sin bateria</li>
+        <li>Pd. Mañana empiezan mis clases y tomé 7 materias pero espero poder organizarme bien y poder seguir con mi
+          instrucción en frontend</li>
+      </ul>
+    </section>
+
+    <section>
+      <ul>
+        <h3><em>Octubre 22</em></h3>
+        <li>Fue un día interesante en el que no avancé mucho en freecodecamp pero sí me dediqué a leer documentación,
+          ver videos <br>
+          e informarme acerca del uso del div el cual sigo aprendiendo sus aplicaciones. No es usar por usar aksjda si
+          por ejemplo tengo <br>
+          contenido encerrado en un section lo correcto es ponerle clase a ese section si quiero estilizarlo y no
+          encerrarlo en un div innecesario</li>
+        <li>También empecé a estilizar mis páginas de bojack horseman y donnie darko un poco más sabiendo esto. La de
+          donnie me salió mejor porque usé <br>
+          tonos y colores más oscuros y así.</li>
+        <li>La verdad tenía mucho sueño así que me dormí y no pude avanzar en esta última página y registrar el avance
+          de ayer pero bueno no siempre se puede <br>
+          lo importante es que avancé</li>
+      </ul>
+    </section>
+
+    <section>
+      <ul>
+        <h3><em>Octubre 23</em></h3>
+        <li>Hoy pude empezar mi trabajo un poco más temprano y poco a poco voy deshaciéndome de la procastinaciòn lol
+          (puse temporizadores y cada vez tienen menos tiempo) y así <br>
+          además de que me engancha más el desarrollo y uff que estúpido no comenzar antes pero bueno no es tan buena
+          idea juzgar la ignorancia del pasado con la sabiduría del presente <br>
+          y obvio antes no sabía ni imaginaba que aprender por mi cuenta investigando y no viendo tutoriales aburridos
+          que sólo son como seguir una receta ya hecha y no aprender nada <br>
+          sería más divertido y mucho más efectivo para aprender</li>
+        <li>Otra cosa que pensaba era que la documentación es para desarrolladores ya avanzados y obcesionados con saber
+          cada cosa nueva que saca el lenguaje pero qué equivocado estaba</li>
+        <li>En fin hoy estuve practicando y voy mejorando y agilizando mis habilidades dibujando si es que se le puede
+          decir así a mover todas las cosas en css y darle forma a tu página web</li>
+        <li>Aprendí cosas como el display flex y como ayuda a posicionar las cosas con el align items, text align y
+          cosas así</li>
+        <li>En fin esto será lo último que escriba en este diario en blanco antes de darle un poco de facha con css
+          (procede a ponerle border radius a todo) ajskjdlak</li>
       </ul>
     </section>
   </main>

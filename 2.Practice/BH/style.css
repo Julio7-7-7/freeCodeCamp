@@ -1,16 +1,17 @@
-#titulo, #bienvenida{
-   text-align: center;
+.titulo {
+  text-align: center;
+  background-color: wheat;
 }
 
-.formulario{
-  background-color: chocolate;
+.formulario {
+  background-color: rgba(229, 102, 38, 0.829);
   text-align: center;
-  width: 80%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.contenido{
+.contenido {
   text-align: center;
   background-color: gray;
   width: 95%;
@@ -18,43 +19,65 @@
   margin-right: auto;
 }
 
-#bhtruck{
+#bhtruck {
   height: 400px;
   width: 250px;
   border-radius: 35px;
 }
 
-.container{
-  display: flex;
-
+#bhs {
+  height: 400px;
+  width: 390px;
+  border-radius: 35px;
 }
-.love{
+
+#bhc {
+  height: 400px;
+  width: 390px;
+  border-radius: 35px;
+}
+
+.things {
+  display: flex;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: gray;
+  border-radius: 35px;
+}
+
+.love {
   text-align: center;
-  width: 30%;
+  width: 35%;
   margin-left: auto;
   margin-right: auto;
   background-color: cornflowerblue;
   border-radius: 45px;
 }
 
-
-.hate{
+.hate {
   text-align: center;
-  width: 30%;
+  width: 35%;
   margin-left: auto;
   margin-right: auto;
   background-color: #ba1c1ccf;
   border-radius: 45px;
 }
 
-.checktemp{
+.checktemp {
   background-color: #d8ef27;
-  width: 84%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
 
-footer{
+footer {
   background-color: rgb(113, 104, 104);
   text-align: center;
+  border-radius: 35px;
+  width: 80%;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(213, 215, 217);
 }
