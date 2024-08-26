@@ -45,18 +45,31 @@ a {
   color: rgb(236, 81, 125);
 }
 
-.info {
-  width: 55%;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
+form {
+  width: 100%;
 }
 
-#problematico {
-  width: 90%;
-  margin-left: 5px;
+.problem {
   display: flex;
-  background-color: #a02727;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+}
+
+.formproblem {
+  border-radius: 30px;
+}
+
+.formproblem h3 {
+  text-decoration: none;
+}
+
+ul li ul p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  background-color: #c5b1b130;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
