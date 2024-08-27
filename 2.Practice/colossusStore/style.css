@@ -1,0 +1,70 @@
+body {
+  background-image: url(https://images.wallpaperscraft.com/image/single/gym_dumbbells_inventory_219519_3840x2400.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+
+hr {
+  border-color: #c4bdbdb0;
+  border-style: double;
+}
+
+.offer {
+  text-align: center;
+  color: #ffffff;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #3a343488;
+  max-width: 800px;
+}
+
+p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  font-size: larger;
+}
+
+.bebidas {
+  display: flex;
+}
+
+.categoria {
+  width: 150px;
+  margin-left: 300px;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+img {
+  border-radius: 20px;
+  background-color: #ffffff3f;
+  width: 45px;
+  height: 45px;
+  margin-right: 320px;
+  margin-top: 4px;
+  transform: rotate(20deg);
+}
+
+.productos {
+  background-color: #3a343488;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.product {
+  width: 20%;
+  padding-right: 100px;
+}
+
+.price {
+  width: 150px;
+}
