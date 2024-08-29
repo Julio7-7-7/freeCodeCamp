@@ -3,7 +3,7 @@ nav {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #524e4e;
+  background: linear-gradient(50deg, #0f0c29, #43C6AC);
   height: 60px;
   width: 40%;
   margin-left: auto;
