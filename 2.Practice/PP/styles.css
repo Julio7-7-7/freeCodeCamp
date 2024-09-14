@@ -17,15 +17,15 @@ body {
 }
 
 .intro {
-  background-color: #524e4e;
-  color: rgba(240, 248, 255, 0.701);
+  background: linear-gradient(50deg, #43C6AC, #0f0c29);
+  color: rgba(242, 245, 248, 0.701);
   width: 100%;
   padding: 0.02px;
   margin-top: 10px;
 }
 
 section {
-  background-color: #524e4e;
+  background: linear-gradient(20deg, #43C6AC, #0f0c29);
   width: 60%;
   border-radius: 40px;
   margin-left: auto;
