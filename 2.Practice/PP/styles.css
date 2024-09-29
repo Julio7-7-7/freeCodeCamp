@@ -2,8 +2,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  background: linear-gradient(50deg, #0f0c29, #43C6AC);
+        text-align: center;
+        background: linear-gradient(50deg, #0f0c29, #43C6AC);
   height: 60px;
   width: 40%;
   margin-left: auto;
