@@ -2,8 +2,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-        text-align: center;
-        background: linear-gradient(50deg, #0f0c29, #43C6AC);
+  text-align: center;
+  background: linear-gradient(50deg, #0f0c29, #43C6AC);
   height: 60px;
   width: 40%;
   margin-left: auto;
@@ -13,12 +13,12 @@ nav {
 }
 
 body {
-  background-color: #302d2d;
+  background: linear-gradient(20deg, #247363, #0f0c29);
 }
 
 .intro {
   background: linear-gradient(50deg, #43C6AC, #0f0c29);
-  color: rgba(242, 245, 248, 0.701);
+  color: rgba(242, 245, 248, 0.618);
   width: 100%;
   padding: 0.02px;
   margin-top: 10px;
