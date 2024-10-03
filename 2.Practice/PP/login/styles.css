@@ -1,0 +1,26 @@
+body {
+  background: linear-gradient(135deg, #43C6AC, #0f0c29);
+  background-attachment: fixed;
+}
+
+.formlogin {
+  background-color: #7e1f6f4b;
+  width: 25em;
+  height: 27em;
+  margin: auto;
+  margin-top: 7em;
+  border-radius: 15px;
+}
+
+.formlogin h2 {
+  text-align: center;
+  padding-top: 15px;
+  font-style: italic;
+  font-size: 35px;
+}
+
+.inputs {
+  background-color: #341f9c;
+  margin: 15px;
+  padding: 15px;
+}
