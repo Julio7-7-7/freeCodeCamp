@@ -1,0 +1,21 @@
+h1,
+p {
+  text-align: center;
+}
+
+form {
+  display: block;
+  width: 60%;
+  background-color: blueviolet;
+  margin: 1em auto;
+}
+
+input,
+label,
+select {
+  display: block;
+}
+
+textarea {
+  color: black;
+}
