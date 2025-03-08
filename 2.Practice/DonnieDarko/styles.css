@@ -23,9 +23,24 @@ a {
 }
 
 .photo {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  /*Hace que el contenedor se vuelva flexible y se acomode horizontalmente todo el contenido*/
+  flex-direction: row;
+  /*Escogemos la dirección en la que se ordenan*/
+  flex-wrap: wrap;
+  /*Si se queda sin espacio en pantalla decidimos si se va a otra fila o no*/
+  justify-content: center;
+  /*Hace que lo ubique en el centro del contenedor en el eje x*/
+  align-items: center;
+  /*Este trabaja en conjunto con el flex direction. Si es row busca el centro de la fila. Si es column ps ya te darás idea*/
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.photo img {
+  width: 40%;
+  border-radius: 10px;
 }
 
 #cinema {
