@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #0a0a23;
+  color: #f5f6f7;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 32px;
+  border-bottom: 4px solid #fdb347;
+}
+
+body {
+  border: 0;
+  font-family: sans-serif;
+  background-color: #f5f6f7;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  /*Hace que si hay una imagen se ajuste para que no se vea rara*/
+  border-radius: 10px;
+}
+
+.gallery {
+  display: flex;
+  /*Hace que el contenedor se vuelva flexible y se acomode horizontalmente todo el contenido*/
+  flex-direction: row;
+  /*Escogemos la dirección en la que se ordenan*/
+  flex-wrap: wrap;
+  /*Si se queda sin espacio en pantalla decidimos si se va a otra fila o no*/
+  justify-content: center;
+  /*Hace que lo ubique en el centro del contenedor en el eje x*/
+  align-items: center;
+  /*Este trabaja en conjunto con el flex direction. Si es row busca el centro de la fila. Si es column ps ya te darás idea*/
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  gap: 16px;
+  /*Espacio entre img*/
+}
+
+.gallery::after {
+  content: "";
+  width: 350px;
+  /*Crea un elemento extra por si son impares*/
+}
