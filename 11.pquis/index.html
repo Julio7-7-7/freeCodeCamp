@@ -9,18 +9,119 @@
 </head>
 <header>
   <img id="logo" alt="freeCodeCamp" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg">
-  <h2>Julius Quiz</h2>
+  <h2 class="titles">Julius Quiz</h2>
   <nav>
     <ul class="links">
-      <li><a href="">CARRERRA</a></li>
-      <li><a href="">GYM</a></li>
+      <li><a href="#carrera">CARRERRA</a></li>
+      <li><a href="#gym">GYM</a></li>
       <li><a href="">MUSIC</a></li>
     </ul>
   </nav>
 </header>
 
 <body>
+  <main>
+    <form action="">
 
+      <section class="datas">
+        <h1 class="subs">Student Info</h2>
+          <div class="info">
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre">
+          </div>
+          <div class="info">
+            <label for="email">Email: </label>
+            <input type="text" name="email" id="email">
+          </div>
+          <div class="info">
+            <label for="comple">Cumpleaños: </label>
+            <input type="text" name="cumple" id="cumple">
+          </div>
+      </section>
+
+      <section class="uni-q">
+        <h1 class="subs" id="carrera">Carrera</h1>
+        <div>
+          <h2>Question #1</h2>
+          <div class="question-block">
+            <fieldset>
+              <legend>La universidad en la que estudia es la FICH</legend>
+              <ul>
+                <li>
+                  <label for="q1-a1">
+                    <input type="radio" name="uni-q" id="q1-a1" value="yes">Yes
+                  </label>
+                </li>
+                <li>
+                  <label for="q1-a2">
+                    <input type="radio" name="uni-q" id="q1-a2" value="No">No
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+          <div class="question-block">
+            <h2>Question #2</h2>
+            <fieldset>
+              <legend>Estudia la carrera de ingeniría de sistemas</legend>
+              <ul>
+                <li>
+                  <label for="q2-a1">
+                    <input type="radio" name="carr-q" id="q2-a1" value="yes">Yes
+                  </label>
+                </li>
+                <li>
+                  <label for="q2-a2">
+                    <input type="radio" name="carr-q" id="q2-a2" value="no">No
+                </li>
+                </label>
+              </ul>
+            </fieldset>
+          </div>
+        </div>
+      </section>
+
+      <section class="gym-q">
+        <h1 class="subs" id="gym">Gym</h1>
+
+        <div class="question-block">
+          <fieldset>
+            <legend>Su gimnasio favorito es Colossus Gym</legend>
+            <ul>
+              <li>
+                <label for="gymt">
+                  <input type="radio" name="gym-q" id="gymt" value="yes">Yes
+                </label>
+              </li>
+              <li>
+                <label for="gymf">
+                  <input type="radio" name="gym-q" id="gymf" value="no">No
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+        </div>
+        <div class="coment">
+          <label for="opinion">Cual es tu opinión acerca de ese gimnasio</label>
+          <textarea name="" id="" rows="7" cols="5"></textarea>
+        </div>
+      </section>
+
+      <section class="music-q">
+        <h2 class="subs">Music</h2>
+        <div class="question-block">
+          <label for="options">Escoje el género de música que creas correcto
+            <select name="options" id="options">
+              <option value="">Select an option</option>
+              <option value="Clasic">Clasic</option>
+              <option value="Alternative rock">Alternative Rock</option>
+              <option value="Bachata">Bachata wtf</option>
+            </select>
+          </label>
+        </div>
+      </section>
+    </form>
+  </main>
 
 </body>
 
