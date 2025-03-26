@@ -14,7 +14,7 @@
     <ul class="links">
       <li><a href="#carrera">CARRERRA</a></li>
       <li><a href="#gym">GYM</a></li>
-      <li><a href="">MUSIC</a></li>
+      <li><a href="#music">MUSIC</a></li>
     </ul>
   </nav>
 </header>
@@ -23,7 +23,7 @@
   <main>
     <form action="">
 
-      <section class="datas">
+      <section class="questionz">
         <h1 class="subs">Student Info</h2>
           <div class="info">
             <label for="nombre">Nombre: </label>
@@ -39,7 +39,7 @@
           </div>
       </section>
 
-      <section class="uni-q">
+      <section class="questionz">
         <h1 class="subs" id="carrera">Carrera</h1>
         <div>
           <h2>Question #1</h2>
@@ -81,9 +81,8 @@
         </div>
       </section>
 
-      <section class="gym-q">
+      <section class="questionz">
         <h1 class="subs" id="gym">Gym</h1>
-
         <div class="question-block">
           <fieldset>
             <legend>Su gimnasio favorito es Colossus Gym</legend>
@@ -100,15 +99,16 @@
               </li>
             </ul>
           </fieldset>
+          <div class="coment">
+            <label for="opinion">Cual es tu opinión acerca de ese gimnasio</label>
+            <textarea name="" id="" rows="7" cols="5"></textarea>
+          </div>
         </div>
-        <div class="coment">
-          <label for="opinion">Cual es tu opinión acerca de ese gimnasio</label>
-          <textarea name="" id="" rows="7" cols="5"></textarea>
-        </div>
+
       </section>
 
-      <section class="music-q">
-        <h2 class="subs">Music</h2>
+      <section class="questionz">
+        <h2 class="subs" id="music">Music</h2>
         <div class="question-block">
           <label for="options">Escoje el género de música que creas correcto
             <select name="options" id="options">
@@ -120,8 +120,16 @@
           </label>
         </div>
       </section>
+
+      <section class="questionz">
+        <button type="submit">Submit</button>
+      </section>
     </form>
   </main>
+
+  <footer>
+    <h3>Derechos Reservados <a href="https://www.instagram.com/jcsarhorseman/" target="_blank">JT's</a> INC</h3>
+  </footer>
 
 </body>
 
