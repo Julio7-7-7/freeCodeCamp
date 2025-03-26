@@ -1,6 +1,12 @@
 body {
   margin: 0;
   font-family: Helvetica;
+  background: #f5f6f7;
+}
+
+
+main {
+  padding-top: 50px;
 }
 
 header {
@@ -49,15 +55,99 @@ a {
 
 .subs {
   border-bottom: 5px solid rgb(220, 218, 218);
+  margin-top: 12%;
 }
 
 .coment {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 100%;
+  margin-top: 5%;
 }
 
 .music-q {
   display: flex;
   flex-direction: column;
+}
+
+
+.questionz {
+  width: 80%;
+  margin: 0 auto 20px auto;
+  max-width: 600px;
+}
+
+
+h1,
+h2 {
+  font-family: Verdana, Tahoma;
+}
+
+.info {
+  padding: 10px 0 0 5px;
+}
+
+input {
+  font-size: 1rem;
+}
+
+.info>label,
+.info>input {
+
+  display: inline-block;
+}
+
+.info input {
+  width: 50%;
+  text-align: left;
+}
+
+.info label {
+  width: 17%;
+  display: inline-block;
+  min-width: 55px;
+  text-align: left;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+#options {
+  display: flex;
+  margin-top: 1%;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+}
+
+footer>a {
+  color: rgb(213, 154, 82) !important;
+}
+
+fieldset {
+  border: none;
+}
+
+button {
+  display: block;
+  margin: 40px auto;
+  width: 40%;
+  padding: 15px;
+  font-size: 1.438rem;
+  background: #d0d0d5;
+  border: 3px solid #3b3b4f;
 }
